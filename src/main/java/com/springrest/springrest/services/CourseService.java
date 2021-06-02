@@ -11,4 +11,6 @@ public interface CourseService {
 	public Course getCourse(int courseid);
 	
 	public Course insertCourse(Course course);
+	
+	public Course updateCourse(Course course);
 }
